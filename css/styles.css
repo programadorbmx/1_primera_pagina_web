@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+main > div{
+    align-items:center;
+    background-color: white;
+    border: solid 2px gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.2s;
+}
+
+main > div:hover{
+    transform: scale(1.2,1.2);
+}
+
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
