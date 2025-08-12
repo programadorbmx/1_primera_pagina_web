@@ -40,3 +40,14 @@ footer{
     flex-direction: column;
     padding-top: 5%;
 }
+
+
+/*-------Desde aqui son los estilos para la pagina de bicicletas---------*/
+
+.seccion-producto-bici{
+    
+}
+
+.seccion-producto-bici > div{
+    width: 500px;
+}
